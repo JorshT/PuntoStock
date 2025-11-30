@@ -29,7 +29,7 @@ function App() {
         <Route path="/ordenes" element={<MyOrdersView />} />
         <Route path="/crear-orden" element={<CreateOrderView />} />
         <Route path="/ventas" element={<MisVentas />} />
-        <Route path="/generar-venta" element={<CreateSaleView />} />
+        <Route path="/ventas/nueva" element={<CreateSaleView />} />
         
         {/* Aquí agregarías las otras rutas: /ordenes, /crear-orden, etc. */}
       </Routes>

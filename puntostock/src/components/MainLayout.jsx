@@ -11,14 +11,14 @@ const MainLayout = ({ children, title, activeSidebarItem }) => {
   // 2. Definir los menús de cada módulo
   const menuCompra = [
     { label: 'Inventario', path: '/inventario' },
-    { label: 'Mis ordenes', path: '/ordenes' },
-    { label: 'Crear orden', path: '/crear-orden' },
+    { label: 'Mis Ordenes', path: '/ordenes' },
+    { label: 'Crear Orden', path: '/crear-orden' },
     { label: 'Proveedores', path: '/proveedores' },
   ];
 
   const menuVentas = [
     { label: 'Mis Ventas', path: '/ventas' },
-    { label: 'Nueva Venta', path: '/generar-venta' },
+    { label: 'Nueva Venta', path: '/ventas/nueva' },
     // Aquí podrías agregar: 'Clientes', 'Facturación', etc.
   ];
 
